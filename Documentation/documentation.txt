@@ -1,0 +1,84 @@
+Predicting NBA Center Rebounds Documentation
+
+********************************************************************
+
+Overview
+
+Documentation for the 3 data sets used in the Predicting NBA Center Rebounds Project. Links and overall data descriptions can be seen below:
+Links
+
+nba_api: https://github.com/swar/nba_api 
+
+player name library: https://www.nbastuffer.com/2020-2021-nba-player-stats/
+
+distances: https://www.rostrum.blog/2018/12/24/nba-travel/
+
+To use: pip install nba_api
+
+requests library also required
+
+nba_api playergamelog endpoint: https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/endpoints/playergamelog.md
+
+********************************************************************
+
+Data retrieved from API pull with parameter (player_id)
+Player ID is found using Full Player names from external data set (player name library)
+distances data set is eventually merged with the previous data data sets on "start" and "end" columns
+
+['SEASON_ID', 'Player_ID', 'Game_ID', 'GAME_DATE', 'MATCHUP', 'WL', 'MIN', 'FGM', 'FGA', 'FG_PCT', 'FG3M', 'FG3A', 'FG3_PCT', 'FTM', 'FTA', 'FT_PCT', 'OREB', 'DREB', 'REB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'PLUS_MINUS', 'VIDEO_AVAILABLE']
+
+
+********************************************************************
+
+All columns and data types (After wrangling):
+
+
+SEASON_ID                           object
+Player_ID                            int64
+Game_ID                             object
+GAME_DATE                   datetime64[ns]
+MATCHUP                             object
+WL                                   int64
+MIN                                  int64
+FGM                                  int64
+FGA                                  int64
+FG_PCT                             float64
+FG3M                                 int64
+FG3A                                 int64
+FG3_PCT                            float64
+FTM                                  int64
+FTA                                  int64
+FT_PCT                             float64
+OREB                                 int64
+DREB                                 int64
+REB                                float64
+AST                                  int64
+STL                                  int64
+BLK                                  int64
+TOV                                  int64
+PF                                   int64
+PTS                                  int64
+PLUS_MINUS                           int64
+VIDEO_AVAILABLE                      int64
+rollingavgrebounds5                float64
+rollingavgrebounds50               float64
+rollingavgminutes2                 float64
+WinsLast5                          float64
+Opponent                            object
+Team                                object
+Home/Away                           object
+PreviousHome/Away                   object
+PreviousOpp                         object
+start                               object
+end                                 object
+Start                               object
+End                                 object
+Duration (mins)                    float64
+Duration (hrs)                     float64
+PlayerMeanREB                      float64
+REBScore                           float64
+rollingavgREBscore3Games           float64
+REB>10                               int64
+
+
+dtype: object
