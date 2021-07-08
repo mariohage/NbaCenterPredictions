@@ -18,6 +18,7 @@ Project Data Sources:
 Project Results:
   - [Notebook](https://github.com/mariohage/NbaCenterPredictions/blob/main/Notebook/FinalCapstone2.ipynb) 
   - [Documentation](https://github.com/mariohage/NbaCenterPredictions/blob/main/Documentation/documentation.txt) 
+  - [Report](https://github.com/mariohage/NbaCenterPredictions/blob/main/Report/Predicting%20NBA%20Center%20Rebounds%20%20(1).pdf)
   - [Presentation](https://github.com/mariohage/NbaCenterPredictions/blob/main/Presentation/Predicting%20NBA%20Center%20Rebounds.pdf)  
 
   
