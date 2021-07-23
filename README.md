@@ -16,9 +16,10 @@ Project Data Sources:
   - [Distances Travelled]( https://www.rostrum.blog/2018/12/24/nba-travel/) contains start and end cities with respective distances between them
  
 Project Results:
+  - [Report](https://github.com/mariohage/NbaCenterPredictions/blob/main/Report/Predicting%20NBA%20Center%20Rebounds%20Report.pdf)
+  - [Presentation](https://github.com/mariohage/NbaCenterPredictions/blob/main/Presentation/Predicting%20NBA%20Center%20Rebounds%20Presentation.pdf)  
   - [Notebook](https://github.com/mariohage/NbaCenterPredictions/blob/main/Notebook/FinalCapstone2.ipynb) 
   - [Documentation](https://github.com/mariohage/NbaCenterPredictions/blob/main/Documentation/documentation.txt) 
-  - [Report](https://github.com/mariohage/NbaCenterPredictions/blob/main/Report/Predicting%20NBA%20Center%20Rebounds%20%20(1).pdf)
-  - [Presentation](https://github.com/mariohage/NbaCenterPredictions/blob/main/Presentation/Predicting%20NBA%20Center%20Rebounds.pdf)  
+  
 
   
